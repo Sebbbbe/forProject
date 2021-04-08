@@ -10,6 +10,10 @@ namespace Bug_Tracker
 {
     public class BugTrackerDBContext : DbContext
     {
+        public BugTrackerDBContext(DbContextOptions<BugTrackerDBContext> options) : base(options)
+        {
+
+        }
         public BugTrackerDBContext()
         {
 

@@ -21,6 +21,7 @@ namespace Bug_Tracker.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+            
         }
 
         [HttpGet]
